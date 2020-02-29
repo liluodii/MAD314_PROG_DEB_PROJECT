@@ -2,8 +2,6 @@ package com.example.jewelleryshop;
 
 
 import android.content.Context;
-import android.content.Intent;
-import android.icu.text.Transliterator;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,10 +9,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
-
-import java.util.List;
 
 public class Adapter extends RecyclerView.Adapter<com.example.jewelleryshop.Adapter.ViewHolder> {
 
@@ -45,7 +40,7 @@ public class Adapter extends RecyclerView.Adapter<com.example.jewelleryshop.Adap
 
     @Override
     public int getItemCount() {
-        return RingRepo.getInstance().getRings().size();
+        return RingRepo.getInstance().getCustomers().size();
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {

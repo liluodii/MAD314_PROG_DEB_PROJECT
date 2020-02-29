@@ -24,7 +24,7 @@ public class RingRepo {
         return instance;
     }
 
-    public void addCustomer(Ring ring) {
+    public void addring(Ring ring) {
         this.rings.add(ring);
     }
 
