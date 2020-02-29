@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
         <activity android:name=".SignUp"></activity>
+=======
+        <activity android:name=".JewelaryDetail"></activity>
+>>>>>>> 952879797a286fd487df34bd19c30d127d782995
         <activity android:name=".SecondActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
